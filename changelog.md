@@ -8,11 +8,11 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 
 ### 🆕 Ajout
 
-- [Client] - Cohérence visuels des contrôles
+- [Clients] - Cohérence visuels des contrôles
 
 ### 🔄 Modification
 
 ### ♻️ Corrections
 
-- [Client] - Correction de l’ajout d’un nouveau client
-- [Client] - Correction de la modification d’un client
+- [Clients] - Correction de l’ajout d’un nouveau client
+- [Clients] - Correction de la modification d’un client
