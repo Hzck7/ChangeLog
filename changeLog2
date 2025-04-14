@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Log</title>
+</head>
+<body>
+    <h1>🛠️ Change Log</h1>
+    <p>Tous les changements notables apportés à ce projet seront documentés dans ce dossier.</p>
+    <h2>En cours de traitement</h2>
+    <h2>v1.0.07 - 2025-04-01</h2>
+    <h3>🆕 Ajouts</h3>
+    <ul>
+        <li>[Clients] - Cohérence visuels des contrôles</li>
+        <li>[Clients] - Reselection des clients après modification</li>
+        <li>[Commandes] - Reselection des commandes après modification</li>
+    </ul>
+    <h3>🔄 Modifications</h3>
+    <h3>♻️ Corrections</h3>
+    <ul>
+        <li>[Clients] - Correction de l’ajout d’un nouveau client</li>
+        <li>[Clients] - Correction de la modification d’un client</li>
+        <li>[Clients] - Prise en compte de la modification d’une référence client dans les commandes</li>
+    </ul>
+</body>
+</html>
