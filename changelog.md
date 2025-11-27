@@ -7,7 +7,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 [Priorité urgente]
 
 [Priorité haute]
-- **Impression des fiches techniques** : *Ajouter le BAT à l'impression*xx
+- **Impression des fiches techniques** : *Ajouter le BAT à l'impression*
 - **Ajout des infos bulle dans l'ensemble de l'application** : *Ajout des informations d'utilisation à l'utilisateur sur l'ensemble des boutons de l'application*
 - **Erreur de liste déroulante "format carton"** : *La liste déroulante du format carton ne charge pas les bonnes données*
 - **Étendre l'action de la simulation des commandes** : *Étendre à 4 semaines la simulation de déplacement des commandes*
@@ -62,6 +62,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
