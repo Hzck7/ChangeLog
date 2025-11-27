@@ -31,7 +31,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 ### 🆕 Ajouts
 
 - **Création de l'écran fiches techniques** : *Création de l'écran de visualisation de toutes le fiches techniques*
-- **Crétion du nombre de clichés** : *Ajout d'une liste déroulante du nombre de cliché dans la saisie des commandes. Si cette option est utilisé, le temps de calage de la machine est enlevé du temps de production et un durée de cinq minutes par cliché est ajoutée*
+- **Crétion du nombre de clichés** : *Ajout d'une liste déroulante du nombre de cliché dans la saisie des commandes. Si cette option est utilisée, le temps de calage de la machine est enlevé du temps de production et un durée de cinq minutes par cliché est ajoutée*
 - **Changement de couleur global de l'application** : *Changement de la nuance de vert dans l'application [en cours de changement]*
   
 ### 🔄 Modifications
@@ -62,6 +62,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
