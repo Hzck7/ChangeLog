@@ -16,7 +16,8 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Ajout d'une seconde laize** : *Ajout d'une seconde laize pour réserver la bonne quantité de matière dans le stock*
 - **Modification du module de temps de travail** : *Modifier l'écran de temps de travail atelier pour prendre en compte la pause-déjeuner*
 - **Erreur d'actualisation de la liste outil** : *Lors de la modification de la liste outil, celle-ci n'est pas mise à jour automatiquement dans l'application*
-- **Multi affichage pour l'écran des articles** : *Rendre l'écran des articles détachable et ouvrable plusieurs fois* 
+- **Multi affichage pour l'écran des articles** : *Rendre l'écran des articles détachable et ouvrable plusieurs fois*
+- **Changement du mode de mise à jour automatique** : *Changement de la mise à jour automatique pour rendre le système plus robuste*
   
 [🔥 Priorité faible]
 - **Changement des couleurs des machines dans le planning** : *Changer l'affichage de la couleur des machines dans le planning. La couleur de la machine sera affichée dans le fond à la place d'être la couleur de police*
@@ -95,6 +96,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
