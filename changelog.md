@@ -7,12 +7,16 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 [🎯🎯🎯 Priorité urgente]
 
 [🔥🔥🔥 Priorité haute]
-- **Étendre l'action de la simulation des commandes** : *Étendre à 4 semaines la simulation de déplacement des commandes*
-  
+  - **Lenteur plannig atelier** : *Correction de la lenteur d'affichage de l'écran de l'atelier*
+  - **Actualisation en direct** : *Changement du mode d'actualisation des filtres*
+  - **Erreur ordre visualisation commande** : *L'ordre de visualisation des commandes n'est pas bon*
+    
 [🔥🔥 Priorité moyenne]
 - **Ajout d'une seconde laize** : *Ajout d'une seconde laize pour réserver la bonne quantité de matière dans le stock*
 - **Modification du module de temps de travail** : *Modifier l'écran de temps de travail atelier pour prendre en compte la pause-déjeuner*
 - **Changement du mode de mise à jour automatique** : *Changement de la mise à jour automatique pour rendre le système plus robuste*
+- **Modification de la liste outil** : *Changer le chargement des informations de la liste outil avec un simple clique*
+- **Duplication article** : *Ajouter un bouton de duplication des articles*
   
 [🔥 Priorité faible]
 - **Changement des couleurs des machines dans le planning** : *Changer l'affichage de la couleur des machines dans le planning. La couleur de la machine sera affichée dans le fond à la place d'être la couleur de police*
@@ -23,6 +27,26 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Création d'un historique des fiches techniques** : *Création d'un module de sauvegarde des versions des fiches techniques avec restauration possible*
 - **Mode vacances des machines** : *Création d'un module de vacance pour empêcher toutes saisie (manuelle ou automatique) dans le planning*
 - **Connexion automatique** : *Ajouter une connexion automatique avec la saisie du mot de passe toutes les semaines*
+
+## [v1.40.0] - 2025-12-13
+
+### 🆕 Ajouts
+
+- **Déplacement des commandes sur 4 semaines** : *Modification de la simulation pour prendre en compte 4 semaines*
+- **Suppression d'une commande planifiée** : *Ajout de la suppression d'une commande qui est planifié. Une fois supprimée, celle-ci revient dans la liste des commandes en attente de planification*
+- **Pauses repas dans le planning** : *Ajout de l'effet visuel des pauses repas dans le planning*
+
+### 🔄 Modifications
+
+- **Temps de production restant** : *Changement du libellé d'information qu'une machine ne peut plus produire sur une journée*
+  
+### ♻️ Corrections
+
+- **Calcul de la disponibilité matière** : *Lors du calcul, la commande en cours de modification était prise en compte dans le calcul de disponibilité et le calcul était érronnée*
+- **Impression du BAT avec une fiche techniques** : *Lors de l'impression d'une fiche technique, si le BAT était vide, il était considéré comme indisponible*
+- **Impression des fiches techniques** : *Corrections multiples*
+- **Déduction du stock** : *La matière n'était pas correctement déduite du stock*
+- **Alerte de stock** : *Modification de l'alerte pour une bonne prise en compte du stock*  
 
 ## [v1.0.38] - 2025-12-10
 
@@ -115,6 +139,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
