@@ -23,7 +23,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Mode vacances des machines** : *Création d'un module de vacance pour empêcher toutes saisie (manuelle ou automatique) dans le planning*
 - **Connexion automatique** : *Ajouter une connexion automatique avec la saisie du mot de passe toutes les semaines*
 - 
-## [v1.46.2]
+## [v1.47.0]
 
 ### 🆕 Ajouts
 
@@ -164,6 +164,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
