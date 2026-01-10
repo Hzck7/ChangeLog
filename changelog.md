@@ -7,16 +7,11 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 [🎯🎯🎯 Priorité urgente]
 
 [🔥🔥🔥 Priorité haute]
-  - **Lenteur plannig atelier** : *Correction de la lenteur d'affichage de l'écran de l'atelier*
   - **Actualisation en direct** : *Changement du mode d'actualisation des filtres*
-  - **Erreur ordre visualisation commande** : *L'ordre de visualisation des commandes n'est pas bon*
     
 [🔥🔥 Priorité moyenne]
 - **Ajout d'une seconde laize** : *Ajout d'une seconde laize pour réserver la bonne quantité de matière dans le stock*
 - **Modification du module de temps de travail** : *Modifier l'écran de temps de travail atelier pour prendre en compte la pause-déjeuner*
-- **Changement du mode de mise à jour automatique** : *Changement de la mise à jour automatique pour rendre le système plus robuste*
-- **Modification de la liste outil** : *Changer le chargement des informations de la liste outil avec un simple clique*
-- **Duplication article** : *Ajouter un bouton de duplication des articles*
   
 [🔥 Priorité faible]
 - **Changement des couleurs des machines dans le planning** : *Changer l'affichage de la couleur des machines dans le planning. La couleur de la machine sera affichée dans le fond à la place d'être la couleur de police*
@@ -27,6 +22,36 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Création d'un historique des fiches techniques** : *Création d'un module de sauvegarde des versions des fiches techniques avec restauration possible*
 - **Mode vacances des machines** : *Création d'un module de vacance pour empêcher toutes saisie (manuelle ou automatique) dans le planning*
 - **Connexion automatique** : *Ajouter une connexion automatique avec la saisie du mot de passe toutes les semaines*
+- 
+## [v1.46.2]
+
+### 🆕 Ajouts
+
+- **Ajout de la laize 2** : *Dans l'écran de saisie d'une commande, ajout du champ laize 2 issue de la liste outil*
+- **Actualisation planning** : *Ajout de l'actualisation du planning dans la routine d'actualisation globale*
+- **Ajout du filtre code article client** : *Ajout du filtre dans la recherche de fiche technique*
+- **Création fiche technique client** : *Création de la fiche technique client a partir de l'ancien modèle*
+- **Ajout d'un bouton cocher/décocher** : *Ajout d'un bouton pour sélectionner ou de sélectionner les colonnes des fiches techniques*
+
+### 🔄 Modifications
+
+- **Modification de l'utilisation du filtre des états** : *Dans le planning de l'atelier, le filtre multiple des états a été remplacé par un mono filtre*
+- **Contrôle du stock** : *L'affichage de la pastille de couleur n'était pas cohérent avec le stock réel de l'atelier*
+- **Optimisation de l'affichage** : *Dans le planning de l'atelier, après une validation de commande, le temps de chargement du planning a été réduit*
+- **Modification des filtres stock** : *Ajout de la possibilité de trié le stock avec des valeurs > et <*
+- **Modification format laize mini** : *Retrait des 3 chiffres après la virgule de la laize mini dans la liste outil*
+  
+### ♻️ Corrections
+
+- **Remise dans l'ordre des commandes** : *Dans le planning de l'atelier, les commandes sont maintenant affichées par ordre de début de production*
+- **Erreur de mise à jour du prix** : *Correction de l'erreur de format rencontré dans la mise à jour des prix*
+- **Erreur de calcul - temps de production restant** : *Correction de l'affichage du temps de production restant*
+- **Rechargement de la table des prix** : *Correction des erreurs de prix matière*
+- **Corrections multiples en run**
+  
+## [v1.40.0 -> v1.46.1]
+
+- **Corrections multiples en run**
 
 ## [v1.40.0] - 2025-12-13
 
@@ -139,6 +164,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
