@@ -23,11 +23,24 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Mode vacances des machines** : *Création d'un module de vacance pour empêcher toutes saisie (manuelle ou automatique) dans le planning*
 - **Connexion automatique** : *Ajouter une connexion automatique avec la saisie du mot de passe toutes les semaines*
 
+## [v1.47.4]
+
+### 🔄 Modifications
+
+- **Modification des listes déroulantes** : *Les listes déroulantes sont maintenant actualisées lors de modification sur d'autres plannings*
+- **Prise en compte de la laize mini** : *Lors de la création d'un article, la laize mini est maintenant utilisée à la place de la laize 2*
+- **Modification taille** : *Réduction de la taille de la fenêtre de stock*
+
+### ♻️ Corrections
+
+- **Erreur lors de la création d'un stock** : *Correction lors de la création d'un article depuis le stock sans quantitée renseignée*
+- **Tri des tableaux** : *Le tri des colonnes dans les tableaux fonctionne sur toutes les colonnes*
+  
 ## [v1.47.3]
 
 ### 🔄 Modifications
 
-- **Commandes terminées** : *lorsqu'une commande est terminé, celle-ci s'affiche d'une couleur différente dans la planification*
+- **Commandes terminées** : *lorsqu'une commande est terminée, celle-ci s'affiche d'une couleur différente dans la planification*
 - **Liste déroulante** : *Dans l'écran de planification des commandes, la molette ne modifie plus les liste déroulante*
 
 ## [v1.47.2]
@@ -178,6 +191,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
