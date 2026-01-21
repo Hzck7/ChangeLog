@@ -23,6 +23,30 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Mode vacances des machines** : *Création d'un module de vacance pour empêcher toutes saisie (manuelle ou automatique) dans le planning*
 - **Connexion automatique** : *Ajouter une connexion automatique avec la saisie du mot de passe toutes les semaines*
 
+## [v1.48.0] - 2025-01-20
+
+### 🆕 Ajouts
+- **Date automatique** : *Lors de la création d'un nouveau format, la date de création est automatiquement ajoutée*
+- **Affichage d'Excel** : *Lors de la génération du fichier Excel de cliché, la fenêtre Excel s'ouvre au premier plan*
+- **Affichage des commandes sans date de planification** : *L'écran des commandes sans date de planification est maintenant affiché automatiquement sur le deuxième écran*
+- **Bouton RAZ filtres** : *Ajout d'un bouton de remise à zéro des filtres sur les formulaires*
+- **Changement du comportement de la fenêtre d'impression** : *Après l'impression d'étiquettes, la fenêtre d'impression ne se ferme plus automatiquement*
+  
+### 🔄 Modifications
+
+- **Modification de format** : *Modification de l'affichage des champs ESP DEV et Laize avec deux chiffres après la virgule.Modification de l'affichage du champ ECH dans la fiche technique*
+- **Affichage de la date d'impression dans la fiche technique** : *La date du jour d'impression est maintenant imprimée dans la fiche technique*
+- **Modification du comportement du changement d'état de commande** : *Lors du changement d'état d'une commande, les questions de validation ont été supprimées et la fenêtre se ferme automatiquement après*
+  
+### ♻️ Corrections
+- **Affichage du développé dans l'impression de cliché** : *Lors de la demande d'impression du fichier Excel de cliché, le développé n'était pas reprit*
+- **Problème mappage du champ ESP DEV** : *Dans la boite à outil, le champ ESP était mal mappé. Il a été supprimé et le mappage a été contrôlé*
+- **Couleur pour les commandes terminées** : *La couleur des commandes terminées est correctement affichée dans l'écran de planification d'une commande*
+- **Sens de sortie non visible** : *Lors de la modification d'un article, l'image du sens de sortie n'était pas visible*
+- **Erreur d'actualisation** : *Correction de l'erreur d'actualisation qui laissait des articles visible sans commande sélectionnée*
+- **Suppression d'un client** : *Remise en fonctionnement de la suppression d'un client via le bouton supp*
+- **Filtre pause atelier** : *Correction du fonctionnement du filtre pause*
+  
 ## [v1.47.4] - 2025-01-13
 
 ### 🔄 Modifications
@@ -191,6 +215,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
