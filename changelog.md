@@ -1,30 +1,14 @@
-# 🛠️ Change Log
+# 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
-
-## ⌛ En cours de traitement
-
-[🎯🎯🎯 Priorité urgente]
-
-[🔥🔥🔥 Priorité haute]
-  - **Actualisation en direct** : *Changement du mode d'actualisation des filtres*
-    
-[🔥🔥 Priorité moyenne]
-- **Ajout d'une seconde laize** : *Ajout d'une seconde laize pour réserver la bonne quantité de matière dans le stock*
-- **Modification du module de temps de travail** : *Modifier l'écran de temps de travail atelier pour prendre en compte la pause-déjeuner*
-  
-[🔥 Priorité faible]
-- **Changer le nom des machines** : *Changer le nom des machines dans toute l'application*
-
-[💧 Non prioritaire]
-- **Création du panier des matières** : *Lors de validation d'une commande, si la matière n'est pas disponible et que l'utilisateur le demande, la matière manquante ira dans un panier de "matières à commander"*
-- **Création d'un historique des fiches techniques** : *Création d'un module de sauvegarde des versions des fiches techniques avec restauration possible*
-- **Mode vacances des machines** : *Création d'un module de vacance pour empêcher toutes saisie (manuelle ou automatique) dans le planning*
-- **Connexion automatique** : *Ajouter une connexion automatique avec la saisie du mot de passe toutes les semaines*
-  
-## [v1.49.1] - 2025-01-27
+ 
+## [v1.49.1] - 2025-01-29
 ### 🆕 Ajouts
 - **Bouton stock** : *Ajout d'un bouton de stock sur l'écran de planification*
+- **Sélection automatique**  : *Lors de l’utilisation des menus contextuelle dans les tableaux, l’appui sur un clique droit sélectionne automatiquement la ligne*
+- **Ajout de colonne** : *Dans la liste des commandes, la date de saisie de la commande a été ajoutée*
+- **Opérateur de bobinage** : *Il existe maintenant un opérateur de bobinage dans le suivi des commandes*
+- **Filtre des colonnes** : *Ajout d'un filtre de sélection des colonnes dans l'écran de temps de production*
   
 ### 🔄 Modifications
 - **Fiche technique** : *Modification de la trame de la fiche technique*
@@ -32,7 +16,10 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 
 ### ♻️ Corrections
 - **Correction filtre article** : *Le filtre du libellé de l'article ne fonctionnait plus depuis la dernière mise à jour*
-  
+- **Erreur format fiche technique** : *Correction de l'erreur de format lors de l'impression d'une fiche technique client*
+- **Mauvaise fiche technique - impression multiple** : *Lors de l'impression multiple, la fiche technique imprimée n'était pas la fiche technique client*
+- **Inversion des colonnes** : *Dans le temps de production, deux colonnes étaient inversées*
+    
 ## [v1.49.0] - 2025-01-26
 
 ### 🆕 Ajouts
@@ -221,6 +208,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
