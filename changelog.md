@@ -1,7 +1,15 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
- 
+## [v1.49.1] - 2025-02-03
+### 🆕 Ajouts
+- **Bouton rafraîchir** : *Ajout d'un bouton pour rafraîchir la liste des commandes sans date de planification*
+
+### ♻️ Corrections
+- **Erreur d'impression des fiches techniques** : *Lors de l'impression de plusieurs fiches techniques, un message d'erreur pouvait apparaitre*
+- **Visualisation BAT** : *Le BAT est de nouveau consultable depuis l'espace des commandes*
+- **Date de départ** : *Affichage d'une date vide dans le planning sur la date de départ n'est pas renseignée*
+
 ## [v1.49.1] - 2025-01-29
 ### 🆕 Ajouts
 - **Bouton stock** : *Ajout d'un bouton de stock sur l'écran de planification*
@@ -208,6 +216,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
