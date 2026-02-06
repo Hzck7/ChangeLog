@@ -1,6 +1,10 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.49.4] - 2025-02-06
+### 🆕 Ajouts
+- **Ouverture de plannification** : *Pour la semaine du 09/02/2026 au 13/02/2026, la machine markandy est planifiable de 05h00 à 22h00*
+
 ## [v1.49.3] - 2025-02-03
 ### ♻️ Corrections
 - **Affichage des commandes en attente** : *Dans l'atelier, certaines commandes en attente n'était pas correctement affichée*
@@ -220,6 +224,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
