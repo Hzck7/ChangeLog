@@ -1,6 +1,10 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.49.6] - 2025-02-09
+### ♻️ Corrections
+- **Affichage des commandes** : *Les commandes après 16h30 n'étaient pas correctement affichées*
+  
 ## [v1.49.5] - 2025-02-09
 ### ♻️ Corrections
 - **Planification après 16h30** : *La planification après 16h30 sur la semaine du 09/02/2026 au 13/02/2026 n'était pas possible*
@@ -228,6 +232,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
