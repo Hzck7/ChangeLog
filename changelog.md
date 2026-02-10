@@ -1,6 +1,19 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.50.0] - 2025-02-10
+### 🆕 Ajouts
+- **Export Excel du temps de production** : *Eportation du tableau des temps de production au format Excel*
+- **Contrôle du Z** : *Ajout d'un indicateur quand une combinaison cylindre/machine n'existe pas*
+    
+### 🔄 Modifications
+- **Fonction de calcul du temps de production restant** : *Modification de la fonction de calcul du temps de production. Prise en compte réel du temps de production de chacune des commandes*
+- **Modification filtre machines** : *Evolution du filtre des machines dans l'écran des temps de production*
+
+### ♻️ Corrections
+- **Déplanification commande** : *Lors du changement de la machine depuis une commande, la commande initialement planifiée sera déplanifiée*
+- **Affichage des colonnes** : *L'affichage des colonnes dans le planning ne nécessite plus de rafraichissement pour être correctement affiché*
+  
 ## [v1.49.6] - 2025-02-09
 ### ♻️ Corrections
 - **Affichage des commandes** : *Les commandes après 16h30 n'étaient pas correctement affichées*
@@ -232,6 +245,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
