@@ -1,6 +1,13 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.50.1] - 2025-02-11
+### ♻️ Corrections
+- **Messages d'erreurs** : *Corrections des messages d'erreur lors de la planification*
+- **Erreur des heures** : *Correction de l'affichage des heures dans le planning*
+- **Erreur chargement des commandes** : *Correction de l'erreur de chargement dans le planning au moment de planifier une commande*
+- **Affichage des plages interdites** : *Les plages interdites sont de nouveaux affichées*
+
 ## [v1.50.0] - 2025-02-10
 ### 🆕 Ajouts
 - **Export Excel du temps de production** : *Eportation du tableau des temps de production au format Excel*
@@ -245,6 +252,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
