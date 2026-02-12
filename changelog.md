@@ -1,6 +1,14 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.50.3] - 2025-02-12
+### 🔄 Modifications
+- **Couleur application** : *Harmonisation des couleurs de l'application*
+
+### ♻️ Corrections
+- **Date automatique mouvement** : *Lors de la saisie d'un mouvement dans le stock, la date du mouvement est automatiquement rajoutée*
+- **Affichage mouvement de stock** : *Correction de l'affichage de multiréférences dans le mouvement de stock*
+   
 ## [v1.50.2] - 2025-02-11
 ### ♻️ Corrections
 - **Correction erreur planification** : *Corrections d'erreurs qui perturbaient la planification*
@@ -256,6 +264,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
