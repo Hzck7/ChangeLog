@@ -1,6 +1,9 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.51.1] - 2025-02-18
+### 🔄 Modifications 
+- **Affichage du bouton nouveau planning** : *Le bouton du nouveau planning est maintenant disponible pour tout le monde*
 ## [v1.51.0] - 2025-02-18
 ### 🆕 Ajouts
 - **Mise en place du nouveau planning** : *Mise à disposition du nouveau planning en version bêta*
@@ -273,6 +276,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
