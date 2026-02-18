@@ -1,6 +1,15 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.51.0] - 2025-02-18
+### 🆕 Ajouts
+- **Mise en place du nouveau planning** : *Mise à disposition du nouveau planning en version bêta*
+- **Détail du reservé** : *Ajout de la colonne référence client*
+  
+### 🔄 Modifications 
+- **Limitation du nombre de caractères** : *Lors de l'impression d'une étiquette carton, les caractères sont limités lors de l'impression*
+- **Actualisation des commandes sans dates** : *Modification de l'actualisation de la liste des commandes sans date de modification*
+  
 ## [v1.50.3] - 2025-02-12
 ### 🔄 Modifications
 - **Couleur application** : *Harmonisation des couleurs de l'application*
@@ -264,6 +273,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
