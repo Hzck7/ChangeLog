@@ -1,6 +1,17 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.52.0] - 2025-02-23
+### 🆕 Ajouts
+- **Double ligne planning** : *Affichage des informations sur deux lignes dans le nouveau planning*
+- **Refonte visuels commandes** : *Refonte visuels des segments des commandes*
+- **Code couleurs états** : *Changemnent des couleurs des commandes pour afficher les états sous forme de couleur*
+- **Changement de cliché** : *Changement du nombre de clichés directement dans la liste des commandes en attente de planification*
+- **Changement d'aplat** : *Ajout d'un changement d'aplat : 20 minutes supplémentaires en cas de changement*
+- **Verrouillage du planning** : *Ajout d'un bouton de verrouillage du planning* 
+
+### 🔄 Modifications 
+- **Modification filtre état** : *Changement de l'affichage des filtres des états*
 ## [v1.51.1] - 2025-02-18
 ### 🔄 Modifications 
 - **Affichage du bouton nouveau planning** : *Le bouton du nouveau planning est maintenant disponible pour tout le monde*
@@ -276,6 +287,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
