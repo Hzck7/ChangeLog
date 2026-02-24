@@ -5,6 +5,8 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 ### ♻️ Corrections
 - **Affichage des heures de pause** : *Récupération de l'affichage des heures de pauses*
 - **Erreur aplat** : *La sélection d'un article dans une commande ainsi que la modification de celui-ci ne déclenche plus l'erreur d'aplat*
+- **Actualisation des commandes sans dates** : *Modification de l'actualisation de la liste des commandes sans date de modification*
+  
 ## [v1.52.0] - 2025-02-23
 ### 🆕 Ajouts
 - **Double ligne planning** : *Affichage des informations sur deux lignes dans le nouveau planning*
@@ -26,7 +28,6 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
   
 ### 🔄 Modifications 
 - **Limitation du nombre de caractères** : *Lors de l'impression d'une étiquette carton, les caractères sont limités lors de l'impression*
-- **Actualisation des commandes sans dates** : *Modification de l'actualisation de la liste des commandes sans date de modification*
   
 ## [v1.50.3] - 2025-02-12
 ### 🔄 Modifications
@@ -291,6 +292,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
