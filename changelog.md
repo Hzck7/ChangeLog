@@ -1,6 +1,17 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.52.4] - 2025-03-09
+### 🆕 Ajouts 
+- **Info bulles planning** : *Ajout d'une info-bulle lors du passage du curseur sur une commande*
+### 🔄 Modifications 
+- **Caclul aplat** : *Modification du calcul du temps de production avec un aplat*
+### ♻️ Corrections
+- **Visualisation des commandes dans l'atelier** : *Certaines commandes n'étaient pas visibles dans l'atelier*
+- **Lenteur chargement atelier** : *Optimisation de l'affichage du planning atelier*
+- **Erreur PA** : *Modification du format du champ PA et réctification des données dans la table*
+- **Déduction du stock** : *Lors de la déclaration de la matière après la production, la matière appelée n'était pas la bonne. Le changement de matière entraînait une erreur de déclaration*
+- **Affichage stock** : *Lors de la création d'une nouvelle matière, si celle-ci n'était pas utilisée dans une commande, elle n'apparaissait pas dans le stock*
 ## [v1.52.2] - 2025-02-26
 ### 🆕 Ajouts
 - **Observation client** : *Ajout du champ 'observation client' dans la fiche technique*
@@ -300,6 +311,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
