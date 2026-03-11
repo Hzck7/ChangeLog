@@ -1,6 +1,13 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.53.0] - 2025-03-11
+### 🆕 Ajouts 
+- **Connexion automatique** : *Ajout de l'option de connexion automatique et de déconnexion*
+- **Info bulle planning** : *Ajout dans l'info bulle du planning la quantitée d'étiquettes*
+### 🔄 Modifications 
+- **Impressions des étiquettes** : *Refonte de l'impression des étiquettes*
+
 ## [v1.52.4] - 2025-03-09
 ### 🆕 Ajouts 
 - **Info bulles planning** : *Ajout d'une info-bulle lors du passage du curseur sur une commande*
@@ -311,6 +318,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
