@@ -1,6 +1,10 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.53.3] - 2025-03-12
+### ♻️ Corrections
+- **Mise à jour automatique** : *La mise à jour automatique ne se lançait plus correctement*
+- **Etiquettes rouleaux** : *Corrections des erreurs de mappage des champs dans les étiquettes rouleaux*
 ## [v1.53.2] - 2025-03-11
 ### ♻️ Corrections
 - **Affichage info bulle** : *Correction de l'erreur d'affichage de l'info bulle dans le planning*
@@ -325,6 +329,7 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 - **Changement du lien vers l'image de sens** : *Le lien vers l'image de sens n'allait pas chercher au bon endroit sur le NAS*
 - **Erreur sur la mise à jour des prix** : *Une erreur était déclenchée lors de la modification de prix via l'écran "mise à jour des prix"*
 - **Erreur lors du changement de mois et d'année dans l'onglet planning** : *Correction de l'erreur de base de données lors du chargement du planning*
+
 
 
 
