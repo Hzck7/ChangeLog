@@ -1,6 +1,13 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.53.4] - 2025-03-17
+### 🆕 Ajouts 
+- **Infobulle commandes** : *Ajout d'une infobulle au survol des commandes*
+- **Filtre commandes** : *Ajout d'un filtre des états des commandes*
+- **Mise en forme champ observation** : *Le champ  observation peut être mis en forme par du texte en gras et en couleur*
+### ♻️ Corrections
+- **Mise à jour ML. Prod** : *Mise à jour de la quantité de ML prod lors de changement dans le squelette de l'article* 
 ## [v1.53.3] - 2025-03-12
 ### ♻️ Corrections
 - **Mise à jour automatique** : *La mise à jour automatique ne se lançait plus correctement*
