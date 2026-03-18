@@ -1,6 +1,14 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.54.1] - 2025-03-18
+### 🆕 Ajouts 
+- **Filtre automatique** : *Au lancement de l'application, les commandes sont automatiquement filtrées sur l'état "en attente" ou "en production"*
+### ♻️ Corrections
+- **Affichage simulation** : *Les commandes terminées n'étaient pas toutes masquées lors de la simulation*
+## [v1.54.0] - 2025-03-17
+### 🆕 Ajouts 
+- **Version préprod** : *Ajout de la version de préproduction pour des tests sur le nouveau planning*
 ## [v1.53.4] - 2025-03-17
 ### 🆕 Ajouts 
 - **Infobulle commandes** : *Ajout d'une infobulle au survol des commandes*
