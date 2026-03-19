@@ -1,6 +1,9 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.54.2] - 2025-03-19
+### 🔄 Modifications 
+- **Nouveau planning** : *Réactivation du nouveau planning uniquement en consultation* 
 ## [v1.54.1] - 2025-03-18
 ### 🆕 Ajouts 
 - **Filtre automatique** : *Au lancement de l'application, les commandes sont automatiquement filtrées sur l'état "en attente" ou "en production"*
