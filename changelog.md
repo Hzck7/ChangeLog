@@ -1,6 +1,12 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.54.3] - 2025-03-20
+### 🆕 Ajouts 
+- **Laize matière** : *Ajout de la laize matière dans le fichier Excel des clichés*
+### ♻️ Corrections
+- **Modification d'un article** : *Correction de l'erreur lors de la validation d'un article*
+- **Erreur de format** : *Correction de l'erreur de format lors du chargement d'un article*
 ## [v1.54.2] - 2025-03-19
 ### 🔄 Modifications 
 - **Nouveau planning** : *Réactivation du nouveau planning uniquement en consultation* 
