@@ -1,6 +1,13 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.54.4] - 2025-03-26
+### 🆕 Ajouts 
+- **Génération des devis** : *Ajout du module de génération des devis en version alpha*
+### 🔄 Modifications 
+- **Infobulle commandes** : *Retrait de l'infobulle des commandes*
+### ♻️ Corrections
+- **Impression étiquettes rouleaux** : *Correction de l'erreur de champ dans les étiquettes rouleaux*
 ## [v1.54.3] - 2025-03-20
 ### 🆕 Ajouts 
 - **Laize matière** : *Ajout de la laize matière dans le fichier Excel des clichés*
