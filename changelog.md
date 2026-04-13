@@ -1,6 +1,17 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.55.1] - 2025-04-13
+### 🆕 Ajouts 
+- **Visualisation fiche technique** : *La fiche technique est maintenant visualisable lors d'un double clique*
+- **Vérification plaque** : *Lors de la saisie d'une commande, une vérification de la plaque est faite.*
+- **Plage dynamique** : *Ajout des plages dynamique dans la gestion des horaires de production de machine*
+- **Suppression sélection** : *Il n'y a plus qu'une seul commande sélectionnable dans le planning*
+
+### 🔄 Modifications 
+- **Recherche fiche technique** : *Lors de la recherche de fiche technique, la sélection de fiche pour impression est automatiquement désélectionné*
+- **Infobulle planning** : *Modification des informations de l'infobulle planning*
+  
 ## [v1.55.0] - 2025-04-07
 ### ♻️ Corrections
 - **Affichage caractères observation** : *Dans le champ observation d'un article, des caractères non sollicités étaient affichés. Le problème intervenait lors de la sauvegarde à cause d'un champ mal dimensionné*
