@@ -5,8 +5,8 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 ### 🆕 Ajouts 
 - **Visualisation fiche technique** : *La fiche technique est maintenant visualisable lors d'un double clique*
 - **Vérification plaque** : *Lors de la saisie d'une commande, une vérification de la plaque est faite.*
-- **Plage dynamique** : *Ajout des plages dynamique dans la gestion des horaires de production de machine*
-- **Suppression sélection** : *Il n'y a plus qu'une seul commande sélectionnable dans le planning*
+- **Plage dynamique** : *Ajout des plages dynamiques dans la gestion des horaires de production de machine*
+- **Suppression sélection** : *Il n'y a plus qu'une seule commande sélectionnable dans le planning*
 
 ### 🔄 Modifications 
 - **Recherche fiche technique** : *Lors de la recherche de fiche technique, la sélection de fiche pour impression est automatiquement désélectionné*
