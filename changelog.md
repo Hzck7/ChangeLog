@@ -1,6 +1,10 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.55.2] - 2025-04-15
+### ♻️ Corrections
+- **Calcul du temps de production** : *Le temps de production n'était plus correctement calculé*
+- **Ouverture semaine** : *Changement de la gestion des semaines dans l'ouverture des machines*
 ## [v1.55.1] - 2025-04-13
 ### 🆕 Ajouts 
 - **Visualisation fiche technique** : *La fiche technique est maintenant visualisable lors d'un double clique*
