@@ -1,6 +1,12 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.55.4] - 2025-04-20
+### 🔄 Modifications 
+- **Filtre fiches techniques** : *Modification de la liste des filtres dans les fiches techniques*
+### ♻️ Corrections
+- **Affichage commentaire client** : *Affichage du commentaire client*
+
 ## [v1.55.3] - 2025-04-20
 ### 🆕 Ajouts 
 - **Ajout colonne stock** : *Ajout de la colonne et du filtre fournisseur*
