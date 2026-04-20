@@ -1,6 +1,14 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.55.3] - 2025-04-20
+### 🆕 Ajouts 
+- **Ajout colonne stock** : *Ajout de la colonne et du filtre fournisseur*
+- **Modification informations** : *Modification des informations de stock maintenant possible*
+### ♻️ Corrections
+- **Information stock** : *Lors de l'ajout d'une nouvelle ligne dans le stock, si le libellé de la ligne avait une apostrophe, la ligne rentrait en erreur*
+- **Sélection de la laize stock** : *Correction de l'erreur de sélection de laize dans le stock*
+- **Actualsiation planning** : *Correction de l'erreur d'actualisation des commandes sans date de plannification*
 ## [v1.55.2] - 2025-04-15
 ### ♻️ Corrections
 - **Calcul du temps de production** : *Le temps de production n'était plus correctement calculé*
