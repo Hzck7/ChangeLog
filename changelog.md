@@ -1,6 +1,9 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.55.5] - 2025-04-22
+### 🆕 Ajouts 
+- **Génération des devis** : *Mise à jour de la génération des devis*
 ## [v1.55.4] - 2025-04-20
 ### 🔄 Modifications 
 - **Filtre fiches techniques** : *Modification de la liste des filtres dans les fiches techniques*
