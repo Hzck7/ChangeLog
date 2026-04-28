@@ -1,6 +1,12 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.55.9] - 2025-04-28
+### 🆕 Ajouts 
+- **Génération des devis** : *Mise à jour de la génération des devis*
+## [v1.55.8] - 2025-04-27
+### 🆕 Ajouts 
+- **Génération des devis** : *Mise à jour de la génération des devis*
 ## [v1.55.7] - 2025-04-27
 ### 🆕 Ajouts 
 - **Génération des devis** : *Mise à jour de la génération des devis*
