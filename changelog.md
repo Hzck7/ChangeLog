@@ -1,6 +1,23 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.60.1] - 2025-04-29
+### 🆕 Ajouts 
+- ESA-80 | Export des fiches techniques vers un fichier Excel
+- ESA-83 | Le format des cartons n'est plus un champ obligatoire
+- ESA-88 | Ajout du nom du client et du format dans la visualisation des mouvements de stock
+### 🔄 Modifications 
+- ESA-79 | Actualisation de la liste des commandes lorsque le filtre des clients est vide
+- ESA-81 | Changement du fonctionnement du filtre de recherche des clients dans les fiches techniques
+- ESA-82 | Modification du filtre des machines pour les fiches techniques
+- ESA-84 | Modification de l'infobulle des commandes dans le planning
+### ♻️ Corrections
+- ESA-83 | Correction du chargement de l'image de sens de sortie
+- ESA-91 | Correction de l'erreur de calcul du prix de la plaque
+- ESA-90 | Correction du troncage de la laize matière
+## [v1.60.0] - 2025-04-28
+### 🆕 Ajouts 
+- **Génération des devis** : *Mise à jour de la génération des devis*
 ## [v1.55.9] - 2025-04-28
 ### 🆕 Ajouts 
 - **Génération des devis** : *Mise à jour de la génération des devis*
