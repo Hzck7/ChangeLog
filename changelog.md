@@ -1,6 +1,10 @@
 # 🛠️ Journal des modifications
 
 Tous les changements notables apportés à ce projet seront documentés dans ce dossier.
+## [v1.60.2] - 2025-04-29
+### ♻️ Corrections
+- ESA-92 | Correction de l'erreur d'ajout de quantité en stock
+- ESA-93 | Correction de l'erreur de validation de la matière lors d'une fin de production
 ## [v1.60.1] - 2025-04-29
 ### 🆕 Ajouts 
 - ESA-80 | Export des fiches techniques vers un fichier Excel
